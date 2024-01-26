@@ -1,0 +1,20 @@
+#map { 
+    height: 60vh;
+    background-color: #ccc;
+}
+
+
+#locCardsContainer {
+
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.locCard {
+box-shadow: red 2px 1px 5px;
+text-align: center;
+
+}
